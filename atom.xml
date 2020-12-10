@@ -70,11 +70,11 @@
     
     <category term="CTF" scheme="http://example.com/tags/CTF/"/>
     
+    <category term="Crypto" scheme="http://example.com/tags/Crypto/"/>
+    
     <category term="Web" scheme="http://example.com/tags/Web/"/>
     
     <category term="Misc" scheme="http://example.com/tags/Misc/"/>
-    
-    <category term="Crypto" scheme="http://example.com/tags/Crypto/"/>
     
     <category term="分组密码" scheme="http://example.com/tags/%E5%88%86%E7%BB%84%E5%AF%86%E7%A0%81/"/>
     
@@ -150,9 +150,9 @@
     <category term="OS" scheme="http://example.com/categories/OS/"/>
     
     
-    <category term="Linux" scheme="http://example.com/tags/Linux/"/>
-    
     <category term="CTF" scheme="http://example.com/tags/CTF/"/>
+    
+    <category term="Linux" scheme="http://example.com/tags/Linux/"/>
     
   </entry>
   
