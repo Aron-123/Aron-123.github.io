@@ -355,6 +355,29 @@
     
     
     <article class="index-post">
+        <a class="abstract-title" href = "/2020/12/10/Python_Turtle/" >
+            
+                <span>[Untitled Post]</span>
+        </a>
+        <div class="abstract-content">
+            <h4 id="Turtle-Road"><a href="#Turtle-Road" class="headerlink" title="Turtle Road"></a>Turtle Road</h4>
+        </div>
+        <div class="abstract-post-meta">
+            <!-- date  -->
+            <div class="abstract-date">
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/12/10</span>
+            </div>
+            <!-- tags  -->
+            
+        </div>
+    </article>
+    
+    
+    
+    
+    
+    
+    <article class="index-post">
         <a class="abstract-title" href = "/2020/12/08/RSA%E5%88%9D%E6%8E%A2/" >
             
                 <span>RSA初探</span>
@@ -392,32 +415,26 @@
     
     
     <article class="index-post">
-        <a class="abstract-title" href = "/2020/12/05/SWPU/" >
+        <a class="abstract-title" href = "/2020/12/06/SWPUCTF%20WriteUp/" >
             
-                <span>SWPUCTF WriteUp</span>
+                <span>SWPUCTF_WriteUp</span>
         </a>
         <div class="abstract-content">
-            MISC10X1.
-图片隐写，kali命令行 foremost分离，可以拿到mp4和flag.txt。
-flag.txt内容交了一下，不对。想多了。
-接着就只能看MP4文件，发现了字符串，如下：
-base64直接解码，拿到
-20.txt文件，如图：
-打开文件，一眼看去是base64编码：
-GZBTONRXGU3DKNRZGYYTMQRXHA3TKNRUG4ZTOOJXGE3DKNRYG4ZTOQJXGE3DQNZZGZBDMNZWG43TGNZZG44TMQZWII3TMNZWGY4Q
-base32解码：
-6C76756569616B7875647379716568737A7168796...
+            Web10x01 扫描目录加注入拿到题目以为是注入，但是试了几次发现好像不太行，而且页面有点多，直接扫描目录
+这一扫真不得了，居然这么多页面，我直接好家伙
+挨个访问了一下，有用的只有那几个
+
+先看看index.php.bak
+123456789GET /important_index_its_so_long_right.php?id=1 HTTP/1.1 Host: 127.0.0.1 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:82.0) Gecko/20100101 Firefox/82.0 Accept: tex...
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
             <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/12/05</span>
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/12/06</span>
             </div>
             <!-- tags  -->
             
             <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "CTF">CTF</a>
     
         <a class="post-tag" href="javascript:void(0);" data-tags = "Crypto">Crypto</a>
     
@@ -576,9 +593,29 @@ base32解码：
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 6
+        Total : 8
         </div>
         <!-- search  -->
         
@@ -599,7 +636,7 @@ base32解码：
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">12/05</span><a class="archive-post-title" href= "/2020/12/05/SWPU/" >SWPUCTF WriteUp</a>
+            <span class="archive-post-date">12/06</span><a class="archive-post-title" href= "/2020/12/06/SWPUCTF%20WriteUp/" >SWPUCTF_WriteUp</a>
         </li>
     
     
@@ -620,6 +657,25 @@ base32解码：
     
         <li class="archive-post-item">
             <span class="archive-post-date">11/21</span><a class="archive-post-title" href= "/2020/11/21/BUUCTF%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/" >BUUCTF刷题</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">11/15</span><a class="archive-post-title" href= "/2020/11/15/MSF%E6%B0%B8%E6%81%92%E4%B9%8B%E8%93%9D(Eternalblue)%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8/" >MSF永恒之蓝(Eternalblue)漏洞利用</a>
+        </li>
+    
+    
+    
+    
+    
+        </ul>
+    
+    <div class="archive-year"> Invalid date </div>
+    <ul class="year-list">
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">Invalid date</span><a class="archive-post-title" href= "/2020/12/10/Python_Turtle/" >[Untitled Post]</a>
         </li>
     
     </div>
@@ -646,6 +702,10 @@ base32解码：
         <span class="sidebar-tag-name" data-tags="分组密码"><span class="iconfont-archer">&#xe606;</span>分组密码</span>
     
         <span class="sidebar-tag-name" data-tags="SQL"><span class="iconfont-archer">&#xe606;</span>SQL</span>
+    
+        <span class="sidebar-tag-name" data-tags="漏洞利用"><span class="iconfont-archer">&#xe606;</span>漏洞利用</span>
+    
+        <span class="sidebar-tag-name" data-tags="MSF"><span class="iconfont-archer">&#xe606;</span>MSF</span>
     
     </div>
     <div class="iconfont-archer sidebar-tags-empty">&#xe678;</div>
