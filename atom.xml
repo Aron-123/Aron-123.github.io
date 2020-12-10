@@ -150,9 +150,9 @@
     <category term="OS" scheme="http://example.com/categories/OS/"/>
     
     
-    <category term="Linux" scheme="http://example.com/tags/Linux/"/>
-    
     <category term="CTF" scheme="http://example.com/tags/CTF/"/>
+    
+    <category term="Linux" scheme="http://example.com/tags/Linux/"/>
     
   </entry>
   
