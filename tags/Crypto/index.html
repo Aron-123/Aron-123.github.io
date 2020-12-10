@@ -22,7 +22,7 @@
     <meta name="description" content="">
     <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/tags/crypto/index.html">
+<meta property="og:url" content="http://example.com/tags/Crypto/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="Aron">
@@ -219,7 +219,7 @@
     <div class="header-sidebar-menu">&#xe775;</div>
     <!-- post页的toggle banner  -->
     
-    <a class="home-link" href=/>Aron's Studio.</a>
+    <a class="home-link" href=/>2er0's Studio.</a>
 </header>
     <div class="wrapper">
         <div class="site-intro" style="
@@ -355,34 +355,31 @@
     
     
     <article class="index-post">
-        <a class="abstract-title" href = "/2020/12/06/SWPUCTF-WriteUp/" >
+        <a class="abstract-title" href = "/2020/12/08/RSA%E5%88%9D%E6%8E%A2/" >
             
-                <span>SWPUCTF_WriteUp</span>
+                <span>RSA初探</span>
         </a>
         <div class="abstract-content">
-            Web10x01 扫描目录加注入拿到题目以为是注入，但是试了几次发现好像不太行，而且页面有点多，直接扫描目录
-这一扫真不得了，居然这么多页面，我直接好家伙
-挨个访问了一下，有用的只有那几个
-
-先看看index.php.bak
-123456789GET /important_index_its_so_long_right.php?id=1 HTTP/1.1 Host: 127.0.0.1 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:82.0) Gecko/20100101 Firefox/82.0 Accept: tex...
+            RSA初探0x01.简介：RSA,非对称加密算法，基于大整数因式分解的难题。对一极大整数做因数分解愈困难，RSA 算法愈可靠。假如有人找到一种快速因数分解的算法的话，那么用 RSA 加密的信息的可靠性就会极度下降。但找到这样的算法的可能性是非常小的。今天只有短的 RSA 钥匙才可能被强力方式破解。到目前为止，世界上还没有任何可靠的攻击RSA算法的方式。只要其钥匙的长度足够长，用RSA加密的信息实际上是不能被破解的。
+0x02.具体实现：假设Alice从不可靠信道接收Bob一条私人消息。她可以用以下的方式来产生一个公钥和一个私钥：
+1234561.任意两个大素数：p,q,且p !&#x3D...
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
             <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/12/06</span>
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/12/08</span>
             </div>
             <!-- tags  -->
             
             <div class= abstract-tags >
     
-        <a class="post-tag" href="javascript:void(0);" data-tags = "web">web</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags = "CTF">CTF</a>
     
-        <a class="post-tag" href="javascript:void(0);" data-tags = "crypto">crypto</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags = "Python">Python</a>
     
-        <a class="post-tag" href="javascript:void(0);" data-tags = "分组密码">分组密码</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags = "Crypto">Crypto</a>
     
-        <a class="post-tag" href="javascript:void(0);" data-tags = "misc">misc</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags = "RSA">RSA</a>
     
 </div>
             
@@ -698,22 +695,6 @@ jsonContent:
         }
     </script>
     <script src="/scripts/main.js"></script>
-    <!-- algolia -->
-    
-    <!-- busuanzi  -->
-    
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    
-    <!-- CNZZ  -->
-    
-    </div>
-    <!-- async load share.js -->
-     
-    </body>
-</html>
-
-
-scripts/main.js"></script>
     <!-- algolia -->
     
     <!-- busuanzi  -->
